@@ -5,7 +5,7 @@ import random # Import Random Module
 variable=np.random.rand(4)  # Use The rand() function of the Random module.
 print("Output of rand() function:\n",variable)
 print("\n")
-# The output of the rand() function gives the value or elementsbetween 0 and 1.
+# The output of the rand() function gives the value or elements between 0 and 1.
 
 variable1=np.random.rand(2,3)  # 2 -> Row and 3 -> Column
 print("Output of rand() function with column and rows values:\n",variable1)
