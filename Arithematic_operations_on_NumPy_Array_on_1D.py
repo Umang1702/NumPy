@@ -1,6 +1,6 @@
-# Performing Arithematic Operations On NumPy Arrays:-
+# Performing Arithematic Operations On NumPy Arrays on 1D Arrays:-
 import numpy as np # Importing Numpy library
-variable1=np.array([1,2,3,4])
+variable1=np.array([1,2,3,4])  #Intialise 1D Numpy array.
 variable2=np.array([5,6,7,8])
 print("The Sum of two array is:",variable1+variable2) # Addition
 print("\n")
