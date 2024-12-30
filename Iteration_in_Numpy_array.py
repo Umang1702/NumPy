@@ -23,3 +23,10 @@ for i in variable_2:
         print()
         for k in j:
             print(k)
+
+
+# Use of nditer() function in Numpy array for iteration:-
+variable_3 = np.array([[[1,2,3,4],[5,6,7,8]]])
+print("The dimension of the array is:",variable_3.ndim) # Use to find the dimension of the array.
+for i in np.nditer(variable_3): # Use of nditer() function.
+    print(i)
